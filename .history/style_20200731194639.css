@@ -36,14 +36,6 @@
   transition: 0.5s ease-in;
 }
 
-.menuMove {
-  width: 20vw;
-}
-
-.crossTransform {
-  transform: translate(-50%, -50%) rotate(360deg);
-}
-
 /* .circle:hover ~ .menu {
   width: 20vw;
 } */
