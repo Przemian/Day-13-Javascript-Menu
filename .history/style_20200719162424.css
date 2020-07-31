@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.circle {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border: 2px solid #000;
+    top: 5%;
+    right: 5%;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.inside {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.circle:hover .inside {
+    rotate: 360deg;
+}
